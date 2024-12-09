@@ -36,6 +36,7 @@
   --cubic-out: cubic-bezier(0.05, 0.83, 0.52, 0.97);
 }
 
+*,
 *::before,
 *::after {
   margin: 0;
@@ -122,7 +123,7 @@ body {
 .has-bg-image {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: left;
 }
 
 .section-subtitle {
@@ -410,7 +411,7 @@ body {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 80%;
+  width: 70%;
   z-index: -1;
 }
 
@@ -544,16 +545,16 @@ body {
 
 .footer-top .container {
   display: grid;
-  gap: 40px;
+  gap: 80px;
 }
 
 .footer-text {
-  margin-block: 5px 20px;
+  margin-block: 18px 20px;
 }
 
 .social-list {
   display: flex;
-  gap: 7px;
+  gap: 8px;
 }
 
 .social-link {
@@ -568,11 +569,6 @@ body {
   transform: translateY(-5px);
 }
 
-.social-link img {
-  width: 30px;
-  height: 30px;
-}
-
 .footer .h3 {
   color: var(--white);
   margin-block-end: 18px;
@@ -581,11 +577,11 @@ body {
 .footer-list .p {
   color: var(--white);
   font-weight: var(--fw-400);
-  margin-block-end: 9px;
+  margin-block-end: 7px;
 }
 
 .footer-list li:not(:first-child) {
-  margin-block-start: 14px;
+  margin-block-start: 16px;
 }
 
 .footer-link {
@@ -654,7 +650,7 @@ body {
 
   .service-list {
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
     gap: 30px;
     margin-block-end: 40px;
   }
@@ -810,7 +806,7 @@ body {
   }
 
   .navbar-link::after {
-    content: url("../images/nav-before-img.png'");
+    content: url("../images/Arrowright.PNG");
     position: absolute;
     bottom: -8px;
     left: 50%;
@@ -949,16 +945,16 @@ body {
   }
 
   .header {
-    padding-block: 10px;
+    padding-block: 25px;
   }
 
   .logo img {
-    width: 160px;
+    width: 128px;
   }
 
   .header .btn {
     font-size: unset;
-    padding-block: 25px;
+    padding-block: 15px;
   }
 
   .hero {
@@ -975,7 +971,7 @@ body {
   }
 
   .hero-banner img {
-    width: 63%;
+    width: 70%;
   }
 
   .service .section-title {
@@ -1027,17 +1023,21 @@ body {
     z-index: 1;
   }
 
-  .footer :is(.shape-1) {
+  .footer :is(.shape-1, .shape-2) {
     display: block;
     position: absolute;
     bottom: 0;
-    width: 40%;
+    width: 50%;
     pointer-events: none;
     z-index: -1;
   }
 
   .footer .shape-1 {
-    left: -45px;
+    left: -50px;
+  }
+
+  .footer .shape-2 {
+    left: -50px;
   }
 }
 
