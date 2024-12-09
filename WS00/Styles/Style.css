@@ -1,0 +1,17 @@
+
+body {
+    color: rgb(4, 0, 255);
+    background-color: lightgrey;
+}
+h1 {
+color: green; 
+margin-left: 40px;   
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+ul > li {
+    list-style: none;
+}

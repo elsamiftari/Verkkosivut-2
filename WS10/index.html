@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms Exercise</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>HTML Forms Exercise</h1>
+        <p>Use this template to create forms below.</p>
+    </header>
+    <div class="container">
+        <h2>Task</h2>
+        <p>Create a form for user registration. The form should include:</p>
+        <ul>
+            <li>Input fields: First Name, Last Name, Email</li>
+            <li>A dropdown for selecting the country</li>
+            <li>A textarea for comments</li>
+            <li>A submit button</li>
+        </ul>
+        <h2>Form</h2>
+        <!DOCTYPE html>
+        <html lang="en">
+        
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Harjoitellaan Tables</title>
+            <link rel="stylesheet" href="./styles/styles.css">
+        
+        </head>
+        
+        <body>
+        
+            <form action="#">
+                <fieldset>
+                    <legend>New user</legend>
+                    <label for="fname">Name:</label><br>
+                    <input type="text" id="fname" name="fname" placeholder="Anna nimesi..." required><br><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname" required><br><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="comment">Comment:</label><br>
+                    <textarea id="comment" name="comment" rows="6" cols="80"></textarea><br><br>
+                    <input type="checkbox" id="nletter" name="nletter" value="nl">
+                    <label for="nletter">accept terms and conditions</label><br><br>
+                    
+                    <select name="language" id="language">
+                        <option value="Country">Country</option>
+                        <option value="England">England</option>
+                        <option value="Sweden">Sweden</option>
+                        <option value="Finland">Finland</option>
+                        <option value="Germany">Germany</option>
+                    </select><br><br>
+                </fieldset>
+            </form>
+            <div id="nav">
+                <button> <a href="second.html">Go To Table</a></button>
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Lähetä tiedot</button>
+            </div>
+        </body>
+        
+        </html>
+    
+
+</body>
+
+</html>
